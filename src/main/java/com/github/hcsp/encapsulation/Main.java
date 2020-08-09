@@ -37,4 +37,5 @@ public class Main {
     public static Student deserialize(String json) {
         return JSON.parseObject(json, Student.class);
     }
+    //这个是最近版本
 }
